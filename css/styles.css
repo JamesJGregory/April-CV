@@ -1,0 +1,333 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Hauora,sans-serif;
+    font-size: 200%;
+    background-color: #F5EFE6;
+}
+
+h1 {
+    margin: 50px auto 0 auto ;
+    color: #131313;
+    font-family: Hauora,sans-serif;
+    font-size: 5.625rem;
+    line-height: 2;
+}
+
+h2 {
+    color: #131313;
+    font-family: Hauora,sans-serif;
+    font-size: 34px;
+    margin: 0;
+    font-weight: normal;
+    line-height: 3;
+}
+
+.James-Intro {
+    margin-left: 200px;
+    margin-right: 200px;
+    line-height: 2;
+}
+
+.header-table {
+    margin-left: 55%;
+    position: relative;
+}
+
+h3 {
+    color: #131313;
+    font-family: Hauora,sans-serif;
+    font-size: 25px;
+    margin: 0;
+    font-weight: normal;
+    line-height: 2;
+}
+
+h6 {
+    color: white;
+    margin: 0;
+    font-family: Hauora,sans-serif;
+    font-size: 0.8rem;
+    font-style: italic;
+    font-weight: 500;
+    padding: 30px;
+}
+
+a.nav-link {
+    color: #131313;
+    font-family: Hauora,sans-serif;
+    font-size: 1rem;
+    margin: 10px 0px;
+}
+
+a.split {
+    color: #131313;
+    font-family: Hauora,sans-serif;
+    font-size: 1rem;
+    margin: 10px 0px;
+}
+
+.nav-bar { 
+    position: sticky;
+    text-align: right;
+    background-color: #7895B2;
+    align-items: center;
+    overflow: hidden;
+    display: inline-flex;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.james-pic {
+    height: 50px;
+    width: 50px;
+    align-items: center;
+}
+
+.nav-bar a:hover {
+    background-color: #6c8ba9;
+    color: white;
+    text-decoration: underline;
+}
+
+.nav-bar a {
+    color: white;
+    float: right;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: right;
+}
+
+  .nav-bar a.active {
+    background-color: #7895B2;
+    color: white;
+  }
+
+  .nav-bar a.split {
+    float: left;
+    background-color: #7895B2;
+    color: white;
+  }
+
+  .nav-bar a.split:hover {
+    background-color: #6c8ba9;
+    color: white;
+    text-decoration:underline;
+  }
+
+.james-profile {
+    align-items: center;
+    height: 120px;
+    width: 120px;
+}
+
+#intro-container {
+    background-color: #F5EFE6;  
+    position: relative;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    line-height: 2;
+}
+
+#top-container {
+    padding: 50px;
+    background-color: #F5EFE6; 
+}
+
+#top-mid-container {
+    background-color: #F5EFE6; 
+    position: relative;
+    margin-top: 100px;
+}
+
+#middle-container {
+    background-color: #F5EFE6; 
+    position: relative;
+    height: 50px;
+    margin: 100px auto 100px auto;
+}
+
+.paragraph-large {
+    font-size: 20px;
+    font-family: Hauora,sans-serif;
+    color: #1a1a1a;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Hello-World {
+    color: #008000;
+}
+
+.footer {
+    background-color: #7895B2;  
+    padding: 50px 0 20px; 
+}   
+
+a.footer-link:link {
+    color: #AEBDCA;text-decoration:none;
+}
+a.footer-link:visited {
+    color: #AEBDCA;text-decoration:none;
+}
+a.footer-link:hover {
+    color: white;
+}
+a.footer-link:hover {
+    text-decoration:underline;
+}
+
+a.footer-link {
+        color: #131313;
+        font-family: Hauora,sans-serif;
+        font-size: 1rem;
+        margin: 10px 30px;
+        padding: 0;
+    }
+
+p {
+    color: black;
+    margin: 0;
+    font-family: Hauora,sans-serif;
+    font-size: 1rem;
+}
+
+.middle-container {
+    background-color: #F5EFE6; 
+    width: 50%;
+    margin: 40px auto 100px auto;
+}
+
+#bottom-container {
+    background-color: #F5EFE6; 
+    padding: 25px;
+    background: radial-gradient(circle, transparent 20%, #FFF5E4 20%, #FFF5E4 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #FFF5E4 20%, #FFF5E4 80%, transparent 80%, transparent) 35px 35px, linear-gradient(#FF9494 2.8000000000000003px, transparent 2.8000000000000003px) 0 -1.4000000000000001px, linear-gradient(90deg, #FF9494 2.8000000000000003px, #FFF5E4 2.8000000000000003px) -1.4000000000000001px 0;
+    background-size: 70px 70px, 70px 70px, 35px 35px, 35px 35px;
+}
+
+.skills {
+    background-color: #F5EFE6; 
+    width: 50%;
+    margin: 100px auto 100px auto;
+    position: relative;
+    text-align: left;
+}
+
+.profile {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: center;
+}
+
+.skill-row-png-1 {
+    float: left;
+    width: 17%;
+    margin-left: -100px;
+}
+
+.skill-row-png-2 {
+    float: right;
+    width: 17%;
+    margin-right: -100px;
+}
+
+.skill-row-png-3 {
+    float: left;
+    width: 17%;
+    margin-left: -100px;
+}
+
+.skill-row-png-4 {
+    float: right;
+    width: 17%;
+    margin-right: -100px;
+}
+
+.skill-row1 {
+    background-color: #F5EFE6;
+    width: 80%;
+    margin: 30px auto -50px auto;
+    position: relative;
+    text-align: left;
+    line-height: 2;
+    margin-right: 80%;
+}
+
+.skill-row2 {
+    background-color: #F5EFE6;
+    width: 80%;
+    margin: 100px auto 100px auto;
+    position: relative;
+    text-align: right;
+    line-height: 2;
+    margin-bottom: 50px;
+    margin-left: 20%;
+}
+
+.skill-row3 {
+    background-color: #F5EFE6;
+    width: 80%;
+    margin: 30px auto -50px auto;
+    position: relative;
+    text-align: left;
+    line-height: 2;
+    margin-right: 80%;
+}
+
+.skill-row4 {
+    background-color: #F5EFE6;
+    width: 80%;
+    margin: 100px auto 100px auto;
+    position: relative;
+    text-align: right;
+    line-height: 2;
+    margin-bottom: 50px;
+    margin-left: 20%;
+}
+
+.contact-me {
+    background-color: #F5EFE6; 
+    margin-bottom: 0;
+    position: relative;
+}
+
+.btn {
+    background: #89abc7;
+    background-image: -webkit-linear-gradient(top, #89abc7, #7895B2);
+    background-image: -moz-linear-gradient(top, #89abc7, #7895B2);
+    background-image: -ms-linear-gradient(top, #89abc7, #7895B2);
+    background-image: -o-linear-gradient(top, #89abc7, #7895B2);
+    background-image: linear-gradient(to bottom, #89abc7, #7895B2);
+    -webkit-border-radius: 20;
+    -moz-border-radius: 20;
+    border-radius: 20px;
+    font-family: Hauora,sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+  }
+  
+.btn:hover {
+    background: #7895B2;
+    text-decoration: none;
+  }
+
+.contact-desc {
+    line-height: 2;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: Hauora,sans-serif;
+    font-size: 1rem;
+}
+
+.contact-form {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    font-size: medium;
+    font-family: 'Open Sans', sans-serif;
+}
